@@ -17,11 +17,11 @@
 </head>
 
 <body>
-  <nav>
+  <nav id="navbar" >
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img id="slack-logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul id="nav-list">
         <li>
           <a href="#">Product</a>
         </li>
@@ -37,7 +37,7 @@
       </ul>
     </div>
 
-    <div>
+    <div id="button-navbar">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -58,15 +58,15 @@
   </nav>
 
   <header>
-    <div>
+    <div id="header-intro">
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span>is free to try</span> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div id="header-button">
+        <button id="email-signup-button" >Sign up with email</button>
 
-        <button>
+        <button id="google-signup-button" >
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -74,16 +74,16 @@
 
     </div>
 
-    <div>
+    <div id="hero-img">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section id="companies-trust-us" >
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div id="companies-trust-logo" >
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -94,13 +94,13 @@
 
     </section>
 
-    <section>
+    <section class="advantage">
       <div>
-        <img src="./images/connectedness-mobile.png" alt="connectedness" />
+        <img class="phone-right" src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
       <div>
-        <h2>Bring your team together</h2>
+        <h2 class="h2-advantage">Bring your team together</h2>
 
         <p>
           At the heart of Slack are channels: organized spaces for everyone and everything you need for work. In
@@ -113,9 +113,12 @@
       </div>
     </section>
 
-    <section>
+    <section class="advantage-rigth">
       <div>
-        <h2>Choose how you want to work</h2>
+        <img src="./images/flexibility-mobile.png" alt="flexibility" />
+      </div>
+      <div>
+        <h2 class="h2-advantage">Choose how you want to work</h2>
         <p>
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
           send
@@ -126,19 +129,15 @@
           <span>Learn more about flexible communication</span>
         </a>
       </div>
-
-      <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
-      </div>
     </section>
 
-    <section>
+    <section class="advantage">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
 
       <div>
-        <h2>Move faster with your tools in one place</h2>
+        <h2 class="h2-advantage">Move faster with your tools in one place</h2>
         <p>
           With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
           tools like Workflow Builder, you can automate away routine tasks.
@@ -151,7 +150,7 @@
     </section>
 
 
-    <section>
+    <section id="result-with-slack">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
@@ -172,7 +171,7 @@
         <li>
           <p><span>86%</span></p>
           <p>
-            feel their ability to work remotely has improved has improved
+            feel their ability to work remotely has improved
             <sup>*</sup>
           </p>
         </li>
@@ -180,14 +179,14 @@
         <li>
           <p><span>88%</span></p>
           <p>
-            feel more connected to their teams*
+            feel more connected to their teams
             <sup>*</sup>
           </p>
         </li>
       </ul>
     </section>
 
-    <section>
+    <section id="welcome">
       <h3>Welcome to your new digital HQ</h3>
 
       <button>Try for free</button>
@@ -198,8 +197,8 @@
 
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
-      <ul>
+    <div id="list-footer">
+      <ul class="column-sumary">
         <li>WHY SLACK?</li>
         <li>Slack vs. Email</li>
         <li>Channels</li>
@@ -208,7 +207,7 @@
         <li>Watch the Demo</li>
       </ul>
 
-      <ul>
+      <ul class="column-sumary">
         <li>PRODUCT</li>
         <li>Features</li>
         <li>Integrations</li>
@@ -217,13 +216,13 @@
         <li>Releases</li>
       </ul>
 
-      <ul>
+      <ul class="column-sumary">
         <li>PRICING</li>
         <li>Plans</li>
         <li>Paid vs. Free</li>
       </ul>
 
-      <ul>
+      <ul class="column-sumary">
         <li>COMPANY</li>
         <li>About Us</li>
         <li>Leadership</li>
@@ -234,8 +233,9 @@
       </ul>
     </div>
 
+    <hr>
 
-    <ul>
+    <ul class="column-security">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
@@ -245,9 +245,8 @@
       <li>Download Slack</li>
     </ul>
 
-    <hr>
-
-    <ul>
+    
+    <ul class="social-list">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
