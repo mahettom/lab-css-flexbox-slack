@@ -313,3 +313,21 @@ footer links grey: #454245
         margin-top: 2rem;
     }
     }
+
+    @media (768px < width < 1024px) {
+        #navbar {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 10rem;
+            width: 100%;
+            background-color: #540B51;
+            border-bottom:1px solid purple;
+    
+        }
+
+        nav div button {
+            display: none;
+        }
+
+    }
